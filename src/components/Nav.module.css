@@ -1,0 +1,11 @@
+.nav {
+  position: sticky; top: 0; z-index: 10;
+  background: color-mix(in srgb, var(--bg) 85%, transparent);
+  backdrop-filter: blur(8px);
+  border-bottom: 1px solid var(--border);
+}
+.inner { display: flex; justify-content: space-between; align-items: center; padding-top: var(--s-4); padding-bottom: var(--s-4); }
+.logo { font-weight: 600; text-decoration: none; font-size: 13px; }
+.links { display: flex; gap: var(--s-5); font-size: 12px; }
+.links a { color: var(--muted); text-decoration: none; }
+.links a:hover { color: var(--text); }

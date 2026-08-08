@@ -1,7 +1,15 @@
+import { Nav } from "./components/Nav";
+
 export default function App() {
   return (
-    <main>
-      <h1>Jahin Tazwar</h1>
-    </main>
+    <>
+      <Nav />
+      <main id="top">
+        <section id="work" className="section"><div className="container" /></section>
+        <section id="about" className="section"><div className="container" /></section>
+        <section id="journey" className="section"><div className="container" /></section>
+        <section id="contact" className="section"><div className="container" /></section>
+      </main>
+    </>
   );
 }
