@@ -1,0 +1,14 @@
+.hero { padding: var(--s-8) 0; }
+.grid { display: grid; grid-template-columns: 1.1fr 0.9fr; gap: var(--s-6); align-items: center; }
+.headline { font-size: clamp(28px, 4.5vw, 40px); font-weight: 650; margin-top: var(--s-4); }
+.mark { position: relative; white-space: nowrap; }
+.underline { position: absolute; left: 0; bottom: -8px; stroke-dasharray: 240; stroke-dashoffset: 240; animation: draw 1s var(--ease) 0.5s forwards; }
+@keyframes draw { to { stroke-dashoffset: 0; } }
+.sub { color: var(--muted-2); font-size: 16px; max-width: 480px; margin-top: var(--s-5); }
+.ctas { display: flex; gap: var(--s-4); align-items: center; margin-top: var(--s-6); font-family: var(--font-mono); font-size: 14px; flex-wrap: wrap; }
+.primary { background: var(--text); color: var(--bg); padding: 9px 16px; border-radius: var(--radius); font-weight: 600; text-decoration: none; }
+.secondary { color: var(--text); text-decoration: none; border: 1px solid var(--border-strong); padding: 9px 16px; border-radius: var(--radius); }
+.textlink { color: var(--muted); text-decoration: none; }
+.textlink:hover { color: var(--text); }
+@media (prefers-reduced-motion: reduce) { .underline { stroke-dashoffset: 0; animation: none; } }
+@media (max-width: 760px) { .grid { grid-template-columns: 1fr; } }
