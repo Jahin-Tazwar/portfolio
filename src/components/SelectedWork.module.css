@@ -1,0 +1,13 @@
+.list { margin-top: var(--s-5); }
+.row { display: flex; gap: var(--s-4); padding: var(--s-5) 0; border-bottom: 1px solid var(--border); }
+.row:hover .title { color: var(--accent); }
+.num { color: #4f4c44; font-size: 14px; }
+.body { flex: 1; }
+.head { display: flex; justify-content: space-between; align-items: baseline; gap: var(--s-4); }
+.title { font-size: clamp(17px, 2.4vw, 19px); font-weight: 600; transition: color var(--dur) var(--ease); }
+.blurb { color: var(--muted-2); font-size: 14px; margin: var(--s-2) 0 var(--s-4); }
+.footer { display: flex; justify-content: space-between; gap: var(--s-4); flex-wrap: wrap; align-items: center; }
+.tags { display: flex; gap: 7px; flex-wrap: wrap; }
+.links { display: flex; gap: var(--s-4); font-size: 12px; }
+.links a { color: var(--accent); text-decoration: none; }
+.links a:hover { text-decoration: underline; }
