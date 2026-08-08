@@ -1,7 +1,7 @@
 .list { margin-top: var(--s-5); }
 .row { display: flex; gap: var(--s-4); padding: var(--s-5) 0; border-bottom: 1px solid var(--border); }
 .row:hover .title { color: var(--accent); }
-.num { color: #4f4c44; font-size: 14px; }
+.num { color: var(--muted); font-size: 14px; }
 .body { flex: 1; }
 .head { display: flex; justify-content: space-between; align-items: baseline; gap: var(--s-4); }
 .title { font-size: clamp(17px, 2.4vw, 19px); font-weight: 600; transition: color var(--dur) var(--ease); }

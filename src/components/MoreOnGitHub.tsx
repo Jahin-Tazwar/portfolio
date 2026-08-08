@@ -5,7 +5,7 @@ import styles from "./MoreOnGitHub.module.css";
 export function MoreOnGitHub() {
   return (
     <div className="container">
-      <p className="eyebrow">more on github</p>
+      <h2 className="eyebrow">more on github</h2>
       <div className={styles.grid}>
         {moreOnGitHub.map((r, i) => (
           <Reveal key={r.name} delay={i * 40}>
