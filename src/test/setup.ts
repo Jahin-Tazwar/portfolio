@@ -12,8 +12,7 @@ class IO {
   takeRecords() { return []; }
   root = null; rootMargin = ""; thresholds = [];
 }
-// @ts-expect-error assign mock
-globalThis.IntersectionObserver = IO;
+(globalThis as unknown as { IntersectionObserver: unknown }).IntersectionObserver = IO;
 
 // matchMedia mock (defaults to no reduced-motion)
 globalThis.matchMedia ??= ((q: string) => ({
