@@ -1,25 +1,51 @@
 :root {
-  --bg: #0e0f0d;
-  --panel: #0a0b09;
-  --text: #e9e6da;
-  --muted: #8f8b7e;
-  --muted-2: #a5a091;
-  --faint: rgba(255, 255, 255, 0.028);
-  --accent: #a8c16a;
-  --amber: #c9a45e;
-  --border: rgba(255, 255, 255, 0.07);
-  --border-strong: rgba(255, 255, 255, 0.09);
-  --dot: #3a3d36;
-  --code-text: #d7d3c6;
+  /* --- surfaces (light, warm) --- */
+  --bg: #f5f4ef;
+  --bg-2: #edebe2;
+  --card: #ffffff;
+  --text: #16140d;
+  --muted: #67655c;
+  --muted-2: #8b897e;
+  --border: rgba(22, 20, 13, 0.12);
+  --border-strong: rgba(22, 20, 13, 0.2);
+  --faint: rgba(22, 20, 13, 0.05);
 
-  --maxw: 860px;
+  /* --- accent (bold, distinctive) --- */
+  --accent: #2f43ff;          /* electric cobalt */
+  --accent-ink: #1b2bd6;      /* darker for text-on-light */
+  --accent-soft: #e6e8ff;     /* tinted fill */
+  --shipped: #1a7f37;         /* green — real "shipped" */
+  --amber: #9a6700;           /* warm — "in progress" */
+
+  /* --- dark code/demo panels (stay dark on the light page) --- */
+  --panel: #0d1117;
+  --panel-2: #161b22;
+  --panel-border: rgba(255, 255, 255, 0.09);
+  --code-text: #c9d1d9;
+  --dot: #30363d;
+  /* syntax (one-dark-ish, authentic to an editor) */
+  --syn-key: #c678dd;
+  --syn-str: #98c379;
+  --syn-num: #d19a66;
+  --syn-fn: #61afef;
+  --syn-com: #6b7280;
+
+  /* --- type --- */
+  --font-display: "Space Grotesk Variable", system-ui, -apple-system, sans-serif;
+  --font-sans: "Inter Variable", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-mono: "JetBrains Mono Variable", ui-monospace, "SF Mono", Menlo, monospace;
+
+  --fs-hero: clamp(2.6rem, 7vw, 5.5rem);
+  --fs-h2: clamp(1.6rem, 3.4vw, 2.6rem);
+  --fs-h3: clamp(1.05rem, 1.8vw, 1.3rem);
+
+  /* --- space / shape --- */
+  --maxw: 1080px;
   --s-1: 4px; --s-2: 8px; --s-3: 12px; --s-4: 16px;
-  --s-5: 24px; --s-6: 32px; --s-7: 48px; --s-8: 72px;
-  --radius: 8px; --radius-lg: 10px;
+  --s-5: 24px; --s-6: 32px; --s-7: 48px; --s-8: 72px; --s-9: 112px;
+  --radius: 10px; --radius-lg: 16px; --radius-xl: 22px;
 
-  --font-sans: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
-  --font-mono: ui-monospace, "SF Mono", "JetBrains Mono", Menlo, monospace;
-
-  --dur: 0.6s;
-  --ease: cubic-bezier(0.2, 0.7, 0.3, 1);
+  /* --- motion --- */
+  --dur: 0.7s;
+  --ease: cubic-bezier(0.16, 1, 0.3, 1);
 }

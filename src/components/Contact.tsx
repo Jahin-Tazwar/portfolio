@@ -4,7 +4,7 @@ import styles from "./Contact.module.css";
 export function Contact() {
   return (
     <div className="container">
-      <p className="eyebrow">contact</p>
+      <p className="eyebrow" data-n="05">contact</p>
       <h2 className={styles.title}>Building something, or hiring for it? Say hi.</h2>
       <div className={styles.links}>
         <a href={`mailto:${profile.email}`} className="mono">{profile.email}</a>

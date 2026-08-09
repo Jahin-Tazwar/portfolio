@@ -5,7 +5,7 @@ import styles from "./Journey.module.css";
 export function Journey() {
   return (
     <div className="container">
-      <h2 className="eyebrow">the journey</h2>
+      <h2 className="eyebrow" data-n="03">the journey</h2>
       <ol className={styles.list}>
         {timeline.map((m, i) => (
           <li key={i} className={`${styles.item} ${m.emphasis ? styles.emph : ""}`}>

@@ -1,6 +1,7 @@
 import type { Project } from "../data/projects";
 import { Tag } from "./Tag";
 import { StatusChip } from "./StatusChip";
+import { Embed } from "./Embed";
 import styles from "./SelectedWork.module.css";
 
 export function ProjectRow({ project: p }: { project: Project }) {
@@ -21,6 +22,7 @@ export function ProjectRow({ project: p }: { project: Project }) {
             <a href={p.repo} target="_blank" rel="noopener noreferrer" className="mono">code ↗</a>
           </div>
         </div>
+        {p.embed && <Embed url={p.embed.url} label={p.embed.label} />}
       </div>
     </article>
   );

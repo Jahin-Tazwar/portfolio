@@ -5,7 +5,7 @@ import styles from "./About.module.css";
 export function About() {
   return (
     <div className="container">
-      <h2 className="eyebrow">about</h2>
+      <h2 className="eyebrow" data-n="02">about</h2>
       <div className={styles.grid}>
         <Reveal>
           <div className={styles.prose}>

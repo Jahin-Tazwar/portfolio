@@ -6,6 +6,7 @@ export type Project = {
   status: { label: string; kind: "shipped" | "progress" };
   live?: string;
   repo: string;
+  embed?: { url: string; label: string };
 };
 
 export const featured: Project[] = [
@@ -18,6 +19,7 @@ export const featured: Project[] = [
     status: { label: "shipped", kind: "shipped" },
     live: "https://nfa-lang.netlify.app",
     repo: "https://github.com/Jahin-Tazwar/NFA",
+    embed: { url: "https://nfa-lang.netlify.app", label: "Write code in NFA and run it — this is the real interpreter, compiled to WebAssembly." },
   },
   {
     n: "02",
@@ -28,6 +30,7 @@ export const featured: Project[] = [
     status: { label: "shipped", kind: "shipped" },
     live: "https://nfa-gambit.netlify.app",
     repo: "https://github.com/Jahin-Tazwar/NFA-Gambit",
+    embed: { url: "https://nfa-gambit.netlify.app", label: "Play the engine right here — legal moves, checks, and the AI opponent all run in-browser." },
   },
   {
     n: "03",
@@ -51,13 +54,14 @@ export const featured: Project[] = [
   },
   {
     n: "05",
-    title: "Calculator — full-stack (FE + BE)",
+    title: "AI Math Notes — a handwriting calculator",
     blurb:
-      "An early full-stack project with a separate deployed front end and back end. Included on purpose as a 'before' marker — a clear reference point for how far the work has come since.",
-    tags: ["TypeScript", "Node.js", "Full-stack"],
-    status: { label: "early work", kind: "shipped" },
-    live: "https://calculator-be.vercel.app",
+      "Draw a math expression on a canvas, hit Run, and it recognizes the handwriting and computes the answer. A full-stack build with a separate front end and back end — the project that got me comfortable wiring real apps end to end.",
+    tags: ["TypeScript", "Canvas", "AI", "Full-stack"],
+    status: { label: "shipped", kind: "shipped" },
+    live: "https://ai-math-notes.netlify.app",
     repo: "https://github.com/Jahin-Tazwar/Calculator-FE",
+    embed: { url: "https://ai-math-notes.netlify.app", label: "Draw a math expression, pick a pen colour, and hit Run — it reads the handwriting and solves it." },
   },
 ];
 
