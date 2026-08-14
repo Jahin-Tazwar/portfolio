@@ -1,5 +1,6 @@
 node_modules/
 .superpowers/
+docs/
 dist/
 .DS_Store
 *.local
@@ -11,4 +12,5 @@ vitest.config.d.ts
 
 # local dev / screenshot scratch
 .playwright-mcp/
+.claude/
 /*.png
