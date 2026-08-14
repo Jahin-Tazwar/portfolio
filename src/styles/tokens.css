@@ -35,7 +35,7 @@
   --font-sans: "Inter Variable", system-ui, -apple-system, "Segoe UI", sans-serif;
   --font-mono: "JetBrains Mono Variable", ui-monospace, "SF Mono", Menlo, monospace;
 
-  --fs-hero: clamp(2.6rem, 7vw, 5.5rem);
+  --fs-hero: clamp(2.1rem, 5.2vw, 4.2rem);
   --fs-h2: clamp(1.6rem, 3.4vw, 2.6rem);
   --fs-h3: clamp(1.05rem, 1.8vw, 1.3rem);
 

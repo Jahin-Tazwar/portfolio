@@ -21,9 +21,9 @@ export function Hero() {
           </Reveal>
           <Reveal delay={90}>
             <h1 id="hero-heading" className={styles.headline}>
-              I build languages, engines,<br />and tools{" "}
+              I build programming languages and chess&nbsp;engines<br />to understand{" "}
               <span className={styles.mark}>
-                by hand
+                how they work
                 <svg className={styles.underline} viewBox="0 0 200 14" preserveAspectRatio="none" fill="none" aria-hidden="true">
                   <path d="M3 8C46 3 128 3 197 7" stroke="var(--accent)" strokeWidth="4" strokeLinecap="round" />
                 </svg>

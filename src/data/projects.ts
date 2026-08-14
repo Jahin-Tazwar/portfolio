@@ -69,7 +69,4 @@ export const moreOnGitHub: { name: string; note: string; lang: string; repo: str
   { name: "speech-analyzer", note: "Speech analysis, built in a weekend at the BUILD@CUET speedathon.", lang: "HTML / JS", repo: "https://github.com/Jahin-Tazwar/speech-analyzer" },
   { name: "multi-role-market", note: "A marketplace with role-based access — also from BUILD@CUET.", lang: "TypeScript", repo: "https://github.com/Jahin-Tazwar/multi-role-market" },
   { name: "Hishab-AI", note: "An AI take on keeping accounts (hishab).", lang: "TypeScript", repo: "https://github.com/Jahin-Tazwar/Hishab-AI" },
-  { name: "pulsemeet", note: "A meetups app written in Flutter — my first real mobile build.", lang: "Dart", repo: "https://github.com/Jahin-Tazwar/pulsemeet" },
-  { name: "Blog-App", note: "A full-stack blog — early practice with CRUD, auth, and deploys.", lang: "JavaScript", repo: "https://github.com/Jahin-Tazwar/Blog-App" },
-  { name: "news-scraper", note: "Pulls news articles and structures them into clean data.", lang: "JavaScript", repo: "https://github.com/Jahin-Tazwar/news-scraper" },
 ];
