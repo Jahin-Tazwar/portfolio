@@ -14,3 +14,7 @@ vitest.config.d.ts
 .playwright-mcp/
 .claude/
 /*.png
+
+# internal planning / local dev config — keep out of the repo
+docs/
+.claude/
