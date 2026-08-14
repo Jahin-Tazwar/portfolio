@@ -1,10 +1,10 @@
 import styles from "./Nav.module.css";
 
 const links = [
-  { id: "work", label: "work" },
-  { id: "about", label: "about" },
-  { id: "journey", label: "journey" },
-  { id: "contact", label: "contact" },
+  { id: "work", label: "Work" },
+  { id: "about", label: "About" },
+  { id: "journey", label: "Journey" },
+  { id: "contact", label: "Contact" },
 ];
 
 export function Nav() {
