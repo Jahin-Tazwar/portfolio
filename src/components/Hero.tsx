@@ -5,10 +5,10 @@ import styles from "./Hero.module.css";
 
 const badges = ["C", "C++", "TypeScript", "React", "WebAssembly"];
 const stats = [
-  { n: "04", l: "products shipped" },
-  { n: "02", l: "systems from scratch" },
+  { n: "04", l: "shipped, end to end" },
+  { n: "02", l: "built from scratch" },
   { n: "1279", l: "CodeChef rating" },
-  { n: "2030", l: "CUET · expected grad" },
+  { n: "2030", l: "CUET, class of" },
 ];
 
 export function Hero() {
@@ -33,9 +33,9 @@ export function Hero() {
           </Reveal>
           <Reveal delay={180}>
             <p className={styles.sub}>
-              Computer science student at CUET. Right now: a programming language written in C
-              and a chess engine in C++ — both compiled to WebAssembly and running in your browser.
-              No framework does the hard part for me.
+              First-year CS student at CUET. Right now I'm writing a programming language in C
+              and a chess engine in C++ — both compiled to WebAssembly, both running in your
+              browser. I build the hard parts myself; that's the point.
             </p>
           </Reveal>
           <Reveal delay={260}>
@@ -60,7 +60,7 @@ export function Hero() {
             <CodePanel filename="factorial.nfa" code={profile.heroCode} highlight />
             <a className={styles.runHint} href="#work">
               <span className={styles.runDot} aria-hidden="true" />
-              this language actually runs — try it below
+              not a screenshot — run it yourself below
             </a>
           </div>
         </Reveal>

@@ -14,29 +14,29 @@ export const featured: Project[] = [
     n: "01",
     title: "NFA — a programming language & interpreter",
     blurb:
-      "A dynamically-typed, C/Rust-inspired language built from scratch in C: hand-written lexer, recursive-descent parser, AST, tree-walking evaluator, and a block-scoped symbol table. Native CLI and an interactive REPL share one runtime core; compiled to WebAssembly (Emscripten) so it runs entirely in the browser, leak-free.",
+      "A dynamically-typed language I wrote from scratch in C — hand-written lexer, recursive-descent parser, AST, and a tree-walking evaluator with real block scoping. One runtime core drives both a native CLI and a browser REPL; Emscripten compiles it to WebAssembly, so it runs client-side with no server and no leaks.",
     tags: ["C", "WebAssembly", "Interpreters", "Parsing"],
     status: { label: "shipped", kind: "shipped" },
     live: "https://nfa-lang.netlify.app",
     repo: "https://github.com/Jahin-Tazwar/NFA",
-    embed: { url: "https://nfa-lang.netlify.app", label: "Write code in NFA and run it — this is the real interpreter, compiled to WebAssembly." },
+    embed: { url: "https://nfa-lang.netlify.app", label: "Write something in NFA and hit Run. This is the real interpreter, compiled to WebAssembly — no server involved." },
   },
   {
     n: "02",
     title: "NFA's Gambit — a chess engine",
     blurb:
-      "A full chess engine in modern C++17: legal move generation (castling, en passant, pins, checks), board representation, positional evaluation, and a raylib GUI. Minimax with alpha-beta pruning and iterative deepening, RAII and smart pointers throughout, multithreaded search, and ported to WebAssembly for in-browser play.",
+      "A chess engine in modern C++17: full legal move generation — castling, en passant, pins, checks — plus board representation and positional evaluation behind a raylib GUI. The AI searches with minimax, alpha-beta pruning, and iterative deepening; RAII and smart pointers keep the memory honest. Ported to WebAssembly so you can play it here.",
     tags: ["C++17", "Game AI", "Multithreading", "WASM"],
     status: { label: "shipped", kind: "shipped" },
     live: "https://nfa-gambit.netlify.app",
     repo: "https://github.com/Jahin-Tazwar/NFA-Gambit",
-    embed: { url: "https://nfa-gambit.netlify.app", label: "Play the engine right here — legal moves, checks, and the AI opponent all run in-browser." },
+    embed: { url: "https://nfa-gambit.netlify.app", label: "Your move. Legal moves, checks, and the AI opponent all run in your browser." },
   },
   {
     n: "03",
     title: "Repo Explainer — AI codebase analysis",
     blurb:
-      "An AI tool that ingests any public GitHub repository and generates consistent, developer-readable explanations of its architecture, module layout, and functionality — cutting onboarding from hours of file-by-file reading to a single pass. React front end, Node back end, LLM APIs.",
+      "Point it at any public GitHub repo and it explains the architecture, the module layout, and how the pieces fit — turning hours of file-by-file reading into a single pass. React front end, Node back end, LLM APIs doing the reasoning.",
     tags: ["React", "Node.js", "LLM APIs"],
     status: { label: "shipped", kind: "shipped" },
     live: "https://repodecode.netlify.app",
@@ -46,7 +46,7 @@ export const featured: Project[] = [
     n: "04",
     title: "CUET Lab — AI-driven educational platform",
     blurb:
-      "A deployed platform hosting virtual lab simulations and course resources, centralizing materials that used to be scattered across sources and making them available on demand to an entire cohort.",
+      "A platform hosting virtual lab simulations and course material for my cohort at CUET — one place for resources that used to be scattered across a dozen sources.",
     tags: ["React", "JavaScript", "Education"],
     status: { label: "shipped", kind: "shipped" },
     live: "https://cuet-lab.netlify.app",
@@ -56,21 +56,20 @@ export const featured: Project[] = [
     n: "05",
     title: "AI Math Notes — a handwriting calculator",
     blurb:
-      "Draw a math expression on a canvas, hit Run, and it recognizes the handwriting and computes the answer. A full-stack build with a separate front end and back end — the project that got me comfortable wiring real apps end to end.",
+      "Handwrite a math expression on the canvas, hit Run, and it reads your handwriting and solves it. A full-stack build with a separate front and back end — the project that taught me to wire real apps end to end.",
     tags: ["TypeScript", "Canvas", "AI", "Full-stack"],
     status: { label: "shipped", kind: "shipped" },
     live: "https://ai-math-notes.netlify.app",
     repo: "https://github.com/Jahin-Tazwar/Calculator-FE",
-    embed: { url: "https://ai-math-notes.netlify.app", label: "Draw a math expression, pick a pen colour, and hit Run — it reads the handwriting and solves it." },
+    embed: { url: "https://ai-math-notes.netlify.app", label: "Draw an expression, pick a pen colour, hit Run. It reads the handwriting and solves it." },
   },
 ];
 
 export const moreOnGitHub: { name: string; note: string; lang: string; repo: string }[] = [
-  { name: "speech-analyzer", note: "Speech analysis tool — from the BUILD@CUET speedathon.", lang: "HTML/JS", repo: "https://github.com/Jahin-Tazwar/speech-analyzer" },
-  { name: "multi-role-market", note: "Multi-role marketplace — built at BUILD@CUET.", lang: "TypeScript", repo: "https://github.com/Jahin-Tazwar/multi-role-market" },
-  { name: "Hishab-AI", note: "AI experiment.", lang: "TypeScript", repo: "https://github.com/Jahin-Tazwar/Hishab-AI" },
-  { name: "pulsemeet", note: "A Flutter mobile app.", lang: "Dart", repo: "https://github.com/Jahin-Tazwar/pulsemeet" },
-  { name: "social", note: "A social app.", lang: "TypeScript", repo: "https://github.com/Jahin-Tazwar/social" },
-  { name: "news-scraper", note: "News scraping utility.", lang: "JavaScript", repo: "https://github.com/Jahin-Tazwar/news-scraper" },
-  { name: "Blog-App", note: "A full-stack blog app.", lang: "JavaScript", repo: "https://github.com/Jahin-Tazwar/Blog-App" },
+  { name: "speech-analyzer", note: "Speech analysis, built in a weekend at the BUILD@CUET speedathon.", lang: "HTML / JS", repo: "https://github.com/Jahin-Tazwar/speech-analyzer" },
+  { name: "multi-role-market", note: "A marketplace with role-based access — also from BUILD@CUET.", lang: "TypeScript", repo: "https://github.com/Jahin-Tazwar/multi-role-market" },
+  { name: "Hishab-AI", note: "An AI take on keeping accounts (hishab).", lang: "TypeScript", repo: "https://github.com/Jahin-Tazwar/Hishab-AI" },
+  { name: "pulsemeet", note: "A meetups app written in Flutter — my first real mobile build.", lang: "Dart", repo: "https://github.com/Jahin-Tazwar/pulsemeet" },
+  { name: "Blog-App", note: "A full-stack blog — early practice with CRUD, auth, and deploys.", lang: "JavaScript", repo: "https://github.com/Jahin-Tazwar/Blog-App" },
+  { name: "news-scraper", note: "Pulls news articles and structures them into clean data.", lang: "JavaScript", repo: "https://github.com/Jahin-Tazwar/news-scraper" },
 ];

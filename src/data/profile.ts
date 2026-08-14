@@ -2,7 +2,7 @@ export const profile = {
   name: "Jahin Tazwar",
   role: "Software Engineer · CS student",
   tagline:
-    "I build the hard parts from scratch — a language, a chess engine — to actually understand them.",
+    "I build the hard parts by hand — a language, a chess engine — because that's how you actually learn them.",
   // Real code from NFA (his language): recursive factorial, no `return` keyword.
   heroCode: [
     "fn factorial(n) {",
@@ -27,9 +27,9 @@ export const profile = {
   ],
   // First-person, story-forward. DRAFT — Jahin to review voice before ship.
   about: [
-    "I started out around 2020, just curious — I watched a developer build something and wanted to know how it actually worked underneath. That question never really went away.",
-    "For a while that meant copying templates and wiring up web apps. Then I tried to build a programming language, and everything changed. Writing a lexer, a parser, an evaluator — by hand, in C — was the first time I felt like I understood the machine instead of just using it.",
-    "Since then I've taken four projects from an empty file to something deployed and public: a language, a chess engine, an AI tool that explains codebases, and a lab platform for my university. I write the hard parts myself on purpose — no framework doing the thinking for me.",
-    "Right now I'm in my first term of Computer Science & Engineering at CUET. I'm early, I know it, and I'm building as fast as I can learn.",
+    "I started writing code around 2020 because I wanted to know how the software I used actually worked. I still open things up just to see what's inside.",
+    "For a while that meant front-end templates and small web apps. Then I set out to build my own programming language, and it rewired how I think. Writing a lexer, a parser, and an evaluator by hand — in C — was the first time the machine stopped being a black box.",
+    "Since then I've taken four projects from an empty file to something people can open: a language, a chess engine, an AI tool that reads codebases, and a lab platform my university uses. I write the hard parts myself. A framework saves time, but it won't teach you what's underneath.",
+    "I'm in my first year of Computer Science & Engineering at CUET. I'm early and I know it — which is exactly why I'm building as much as I can while I learn.",
   ],
 } as const;
