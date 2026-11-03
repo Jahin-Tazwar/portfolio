@@ -7,7 +7,7 @@ const badges = ["C", "C++", "TypeScript", "React", "WebAssembly"];
 const stats = [
   { n: "04", l: "shipped, end to end" },
   { n: "02", l: "built from scratch" },
-  { n: "1400+", l: "CodeChef rating" },
+  { n: "1415", l: "CodeChef rating" },
   { n: "2030", l: "CUET, class of" },
 ];
 

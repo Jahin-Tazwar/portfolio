@@ -23,7 +23,7 @@ export const profile = {
     { group: "Languages", items: ["C", "C++ (C++17)", "JavaScript / TypeScript", "SQL"] },
     { group: "Web & data", items: ["React", "Node.js", "Express", "REST APIs", "PostgreSQL", "MongoDB", "SQLite"] },
     { group: "Systems & tools", items: ["WebAssembly (Emscripten)", "CMake", "Git / GitHub", "Linux", "VS Code"] },
-    { group: "Concepts", items: ["Data structures & algorithms", "Compiler/interpreter design", "OOP", "Multithreading", "Memory management", "Performance optimization"] },
+    { group: "Concepts", items: ["Data structures & algorithms", "Compiler/interpreter design", "OOP", "Memory management", "Performance optimization"] },
   ],
   // First-person, story-forward. DRAFT — Jahin to review voice before ship.
   about: [

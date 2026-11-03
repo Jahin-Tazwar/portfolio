@@ -14,7 +14,7 @@ export const featured: Project[] = [
     n: "01",
     title: "NFA — a programming language & interpreter",
     blurb:
-      "A dynamically-typed language I wrote from scratch in C — hand-written lexer, recursive-descent parser, AST, and a tree-walking evaluator with real block scoping. One runtime core drives both a native CLI and a browser REPL; Emscripten compiles it to WebAssembly, so it runs client-side with no server and no leaks.",
+      "A dynamically-typed language I wrote from scratch in C — hand-written lexer, recursive-descent parser, AST, and a tree-walking evaluator with real block scoping. One runtime core drives both a native CLI and a browser REPL; Emscripten compiles it to WebAssembly, so it runs client-side with no server.",
     tags: ["C", "WebAssembly", "Interpreters", "Parsing"],
     status: { label: "shipped", kind: "shipped" },
     live: "https://nfa-lang.netlify.app",
@@ -26,7 +26,7 @@ export const featured: Project[] = [
     title: "NFA's Gambit — a chess engine",
     blurb:
       "A chess engine in modern C++17: full legal move generation — castling, en passant, pins, checks — plus board representation and positional evaluation behind a raylib GUI. The AI searches with minimax, alpha-beta pruning, and iterative deepening; RAII and smart pointers keep the memory honest. Ported to WebAssembly so you can play it here.",
-    tags: ["C++17", "Game AI", "Multithreading", "WASM"],
+    tags: ["C++17", "Game AI", "Alpha-beta search", "WASM"],
     status: { label: "shipped", kind: "shipped" },
     live: "https://nfa-gambit.netlify.app",
     repo: "https://github.com/Jahin-Tazwar/NFA-Gambit",
